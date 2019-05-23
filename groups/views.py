@@ -8,6 +8,7 @@ from django.contrib import messages
 from django.db import IntegrityError
 from . import models
 
+
 class CreateGroup(LoginRequiredMixin, generic.CreateView):
     fields = ('name', 'description')
     model = Group
