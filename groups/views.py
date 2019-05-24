@@ -1,4 +1,4 @@
-from django.shortcuts import render
+# group views
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.urls import reverse
 from django.views import generic
